@@ -1,0 +1,6 @@
+&INPUTPP
+  prefix    = 'planar_targeted'
+  outdir    = '/Users/behnamazizi/Downloads/core level shifts/planar/output/restart_data'
+  excite(2) = 5   ! selected C atoms only; Cw is type 7 and is not mapped
+  excite(3) = 6   ! all N atoms
+/

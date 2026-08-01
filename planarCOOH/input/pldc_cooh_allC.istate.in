@@ -1,0 +1,5 @@
+&INPUTPP
+  prefix    = 'pldc_cooh_allC'
+  outdir    = '/Users/behnamazizi/Downloads/core level shifts/planarCOOH/output/restart_data'
+  excite(2) = 6   ! all 46 carbon atoms
+/

@@ -1,0 +1,6 @@
+&INPUTPP
+  prefix    = 'planar_v3'
+  outdir    = '/Users/behnamazizi/Documents/predoc exam/planar_cls/tmp_v3'
+  excite(2) = 5
+  excite(3) = 6
+/

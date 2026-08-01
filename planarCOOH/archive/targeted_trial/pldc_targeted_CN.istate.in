@@ -1,0 +1,6 @@
+&INPUTPP
+  prefix    = 'pldc_targeted'
+  outdir    = '/Users/behnamazizi/Documents/predoc exam/planar_cls/tmp_pldc'
+  excite(2) = 6   ! selected porphyrin C atoms only
+  excite(3) = 7   ! all N atoms
+/
