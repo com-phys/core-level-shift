@@ -1,5 +1,4 @@
 .DS_Store
 *.zip
-**/output/restart_data/
 __pycache__/
 *.pyc

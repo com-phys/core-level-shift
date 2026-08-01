@@ -36,11 +36,10 @@ the reports, figures, structures, CSV tables, or completed text outputs.
 - Gaussian spectral broadening: 0.35 eV FWHM.
 - Shift convention: reference contribution minus site contribution.
 
-## Repository size note
+## Quantum ESPRESSO restart data
 
-Large Quantum ESPRESSO restart binaries were intentionally excluded because
-they are unnecessary for viewing the completed results and exceed GitHub's
-normal file-size limit. Specifically, `wfc1.dat` (361 MB),
-`charge-density.dat` (57 MB), and the redundant 390 MB ZIP archive are not
-included. The completed `.out` files and all scientific deliverables are
-included.
+The complete PLDC–COOH restart directory is included. The wavefunction
+`wfc1.dat` (361 MB) and `charge-density.dat` (57 MB) are stored with Git LFS
+because the wavefunction exceeds GitHub's normal per-file limit. A collaborator
+who clones the repository should have Git LFS installed so these binaries are
+downloaded automatically. The redundant 390 MB ZIP archive is not included.

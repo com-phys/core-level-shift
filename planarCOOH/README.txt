@@ -1,7 +1,7 @@
 PLANAR-COOH / PLDC-COOH CORE-LEVEL-SHIFT PROJECT
 
 input/      Quantum ESPRESSO SCF and initial_state.x input files
-output/     SCF/initial-state outputs and numerical CSV results
+output/     SCF/initial-state outputs, restart data, and numerical CSV results
 figures/    Final PLDC-COOH and Planar-versus-PLDC comparison figures
 report/     Final full DOCX/PDF report and report notes
 archive/    Older plots, reports, trial inputs, scripts, and unused structures
@@ -20,5 +20,5 @@ Primary report:
   report/Full_Planar_PLDC_All_Carbon_CLS_Report.pdf
 
 The active input uses the centralized pseudopotentials in ../pseudopotential.
-Large QE restart binaries are omitted from the GitHub collaborator package;
-they are not needed to inspect the completed outputs, data, figures, or report.
+The complete QE restart directory is included. Its large wavefunction and
+charge-density files are stored with Git LFS.
