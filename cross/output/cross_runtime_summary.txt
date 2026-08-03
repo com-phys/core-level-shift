@@ -1,0 +1,8 @@
+Project: cross
+SCF iterations: 36
+Final total energy (Ry): -740.00629696
+SCF runtime: PWSCF        :  42m 3.66s CPU      1h 9m WALL
+initial_state runtime: initstate    :     31.32s CPU   1m11.46s WALL
+C reference contribution (eV): -75.25870958
+N reference contribution (eV): -134.22270000
+Gaussian FWHM (eV): 0.35

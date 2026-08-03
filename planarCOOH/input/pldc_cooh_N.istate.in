@@ -1,0 +1,5 @@
+&INPUTPP
+  prefix    = 'pldc_cooh_N'
+  outdir    = '/Users/behnamazizi/Downloads/core level shifts/planarCOOH/output/restart_data'
+  excite(3) = 7   ! all four N atoms; normal N -> N.star1s
+/

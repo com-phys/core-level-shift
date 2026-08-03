@@ -1,0 +1,8 @@
+Project: twistedH2
+SCF iterations: 37
+Final total energy (Ry): -741.85706787
+SCF runtime: PWSCF        :  42m45.43s CPU      1h 9m WALL
+initial_state runtime: initstate    :     29.08s CPU     47.28s WALL
+C reference contribution (eV): -75.08949458
+N reference contribution (eV): -133.01477250
+Gaussian FWHM (eV): 0.35

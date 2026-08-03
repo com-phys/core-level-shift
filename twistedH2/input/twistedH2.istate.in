@@ -1,0 +1,6 @@
+&INPUTPP
+  prefix          = 'twistedh2_cls'
+  outdir          = '/Users/behnamazizi/Downloads/core level shifts/twistedH2/output/restart_data'
+  excite(2) = 5   ! all carbon atoms: C 1s
+  excite(3) = 6   ! all nitrogen atoms: N 1s
+/

@@ -1,0 +1,616 @@
+
+     Program initstate v.7.5 starts on  1Aug2026 at 21: 2:17 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     4 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     0 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     /Users/behnamazizi/Downloads/core level shifts/twistedH2/output/restart_data/twistedh2_cls.save/
+     file C.pbe-rrkjus.UPF: wavefunction(s)  2S 2P renormalized
+     file H.pbe-rrkjus.UPF: wavefunction(s)  1S renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        7986    5331   1333              1074872   585126   73123
+     Max        7989    5334   1336              1074881   585128   73126
+     Sum       31949   21329   5337              4299501  2340509  292499
+
+     Using Slab Decomposition
+
+
+     negative rho (up, down):  7.546E-02 0.000E+00
+
+     INITIAL STATE CONTRIBUTION TO
+     CORE LEVEL SHIFT ON ATOMS:
+
+     atom   1 type  1   shift =     0.000000 Ry, =      0.00000 eV
+     atom   2 type  2   shift =    -5.513015 Ry, =    -75.00839 eV
+     atom   3 type  2   shift =    -5.512992 Ry, =    -75.00807 eV
+     atom   4 type  2   shift =    -5.430204 Ry, =    -73.88169 eV
+     atom   5 type  2   shift =    -5.430014 Ry, =    -73.87910 eV
+     atom   6 type  2   shift =    -5.499921 Ry, =    -74.83024 eV
+     atom   7 type  2   shift =    -5.520512 Ry, =    -75.11039 eV
+     atom   8 type  2   shift =    -5.521357 Ry, =    -75.12189 eV
+     atom   9 type  2   shift =    -5.524138 Ry, =    -75.15973 eV
+     atom  10 type  2   shift =    -5.518348 Ry, =    -75.08095 eV
+     atom  11 type  2   shift =    -5.499898 Ry, =    -74.82993 eV
+     atom  12 type  2   shift =    -5.529556 Ry, =    -75.23344 eV
+     atom  13 type  2   shift =    -5.499589 Ry, =    -74.82571 eV
+     atom  14 type  2   shift =    -5.520415 Ry, =    -75.10907 eV
+     atom  15 type  2   shift =    -5.521448 Ry, =    -75.12312 eV
+     atom  16 type  2   shift =    -5.524056 Ry, =    -75.15861 eV
+     atom  17 type  2   shift =    -5.518395 Ry, =    -75.08159 eV
+     atom  18 type  2   shift =    -5.499880 Ry, =    -74.82968 eV
+     atom  19 type  2   shift =    -5.529390 Ry, =    -75.23118 eV
+     atom  20 type  2   shift =    -5.468635 Ry, =    -74.40457 eV
+     atom  21 type  2   shift =    -5.468472 Ry, =    -74.40236 eV
+     atom  22 type  2   shift =    -5.556447 Ry, =    -75.59932 eV
+     atom  23 type  2   shift =    -5.556155 Ry, =    -75.59534 eV
+     atom  24 type  2   shift =    -5.556320 Ry, =    -75.59758 eV
+     atom  25 type  2   shift =    -5.556166 Ry, =    -75.59548 eV
+     atom  26 type  2   shift =    -5.468662 Ry, =    -74.40494 eV
+     atom  27 type  2   shift =    -5.468342 Ry, =    -74.40058 eV
+     atom  28 type  2   shift =    -5.499974 Ry, =    -74.83096 eV
+     atom  29 type  2   shift =    -5.529630 Ry, =    -75.23445 eV
+     atom  30 type  2   shift =    -5.499989 Ry, =    -74.83117 eV
+     atom  31 type  2   shift =    -5.518488 Ry, =    -75.08286 eV
+     atom  32 type  2   shift =    -5.524201 Ry, =    -75.16059 eV
+     atom  33 type  2   shift =    -5.521674 Ry, =    -75.12620 eV
+     atom  34 type  2   shift =    -5.520610 Ry, =    -75.11173 eV
+     atom  35 type  2   shift =    -5.499544 Ry, =    -74.82511 eV
+     atom  36 type  2   shift =    -5.529376 Ry, =    -75.23099 eV
+     atom  37 type  2   shift =    -5.499688 Ry, =    -74.82707 eV
+     atom  38 type  2   shift =    -5.518259 Ry, =    -75.07974 eV
+     atom  39 type  2   shift =    -5.524090 Ry, =    -75.15907 eV
+     atom  40 type  2   shift =    -5.521368 Ry, =    -75.12203 eV
+     atom  41 type  2   shift =    -5.520659 Ry, =    -75.11239 eV
+     atom  42 type  2   shift =    -5.430414 Ry, =    -73.88454 eV
+     atom  43 type  2   shift =    -5.430078 Ry, =    -73.87997 eV
+     atom  44 type  2   shift =    -5.513003 Ry, =    -75.00823 eV
+     atom  45 type  2   shift =    -5.512933 Ry, =    -75.00727 eV
+     atom  46 type  3   shift =    -9.739918 Ry, =   -132.51833 eV
+     atom  47 type  3   shift =    -9.812786 Ry, =   -133.50975 eV
+     atom  48 type  3   shift =    -9.812715 Ry, =   -133.50878 eV
+     atom  49 type  3   shift =    -9.740204 Ry, =   -132.52223 eV
+     atom  50 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  51 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  52 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  53 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  54 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  55 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  56 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  57 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  58 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  59 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  60 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  61 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  62 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  63 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  64 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  65 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  66 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  67 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  68 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  69 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  70 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  71 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  72 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  73 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  74 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  75 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  76 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  77 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  78 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  79 type  4   shift =     0.000000 Ry, =      0.00000 eV
+
+     The FERMI ENERGY contribution to shift
+     atom   1 type  1   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   2 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   3 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   4 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   5 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   6 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   7 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   8 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom   9 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  10 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  11 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  12 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  13 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  14 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  15 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  16 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  17 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  18 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  19 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  20 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  21 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  22 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  23 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  24 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  25 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  26 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  27 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  28 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  29 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  30 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  31 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  32 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  33 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  34 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  35 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  36 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  37 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  38 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  39 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  40 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  41 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  42 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  43 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  44 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  45 type  2   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  46 type  3   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  47 type  3   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  48 type  3   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  49 type  3   shift =    -0.231525 Ry, =     -3.15005 eV
+     atom  50 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  51 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  52 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  53 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  54 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  55 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  56 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  57 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  58 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  59 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  60 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  61 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  62 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  63 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  64 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  65 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  66 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  67 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  68 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  69 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  70 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  71 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  72 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  73 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  74 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  75 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  76 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  77 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  78 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  79 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     The NON LOCAL contribution to shift
+     atom   1 type  1   shift =     0.000000 Ry, =      0.00000 eV
+     atom   2 type  2   shift =     2.542079 Ry, =     34.58674 eV
+     atom   3 type  2   shift =     2.542098 Ry, =     34.58700 eV
+     atom   4 type  2   shift =     2.554859 Ry, =     34.76063 eV
+     atom   5 type  2   shift =     2.555499 Ry, =     34.76933 eV
+     atom   6 type  2   shift =     2.534069 Ry, =     34.47777 eV
+     atom   7 type  2   shift =     2.545851 Ry, =     34.63806 eV
+     atom   8 type  2   shift =     2.541340 Ry, =     34.57670 eV
+     atom   9 type  2   shift =     2.541333 Ry, =     34.57659 eV
+     atom  10 type  2   shift =     2.542243 Ry, =     34.58898 eV
+     atom  11 type  2   shift =     2.527419 Ry, =     34.38729 eV
+     atom  12 type  2   shift =     2.538336 Ry, =     34.53583 eV
+     atom  13 type  2   shift =     2.534683 Ry, =     34.48612 eV
+     atom  14 type  2   shift =     2.545701 Ry, =     34.63603 eV
+     atom  15 type  2   shift =     2.541256 Ry, =     34.57555 eV
+     atom  16 type  2   shift =     2.541208 Ry, =     34.57489 eV
+     atom  17 type  2   shift =     2.542288 Ry, =     34.58959 eV
+     atom  18 type  2   shift =     2.527606 Ry, =     34.38983 eV
+     atom  19 type  2   shift =     2.538674 Ry, =     34.54042 eV
+     atom  20 type  2   shift =     2.544462 Ry, =     34.61917 eV
+     atom  21 type  2   shift =     2.544485 Ry, =     34.61948 eV
+     atom  22 type  2   shift =     2.553323 Ry, =     34.73973 eV
+     atom  23 type  2   shift =     2.553707 Ry, =     34.74495 eV
+     atom  24 type  2   shift =     2.553526 Ry, =     34.74250 eV
+     atom  25 type  2   shift =     2.553841 Ry, =     34.74677 eV
+     atom  26 type  2   shift =     2.544420 Ry, =     34.61860 eV
+     atom  27 type  2   shift =     2.544571 Ry, =     34.62065 eV
+     atom  28 type  2   shift =     2.533708 Ry, =     34.47286 eV
+     atom  29 type  2   shift =     2.538312 Ry, =     34.53550 eV
+     atom  30 type  2   shift =     2.526948 Ry, =     34.38088 eV
+     atom  31 type  2   shift =     2.542166 Ry, =     34.58792 eV
+     atom  32 type  2   shift =     2.541120 Ry, =     34.57369 eV
+     atom  33 type  2   shift =     2.540915 Ry, =     34.57091 eV
+     atom  34 type  2   shift =     2.545551 Ry, =     34.63399 eV
+     atom  35 type  2   shift =     2.535144 Ry, =     34.49239 eV
+     atom  36 type  2   shift =     2.538342 Ry, =     34.53590 eV
+     atom  37 type  2   shift =     2.527949 Ry, =     34.39449 eV
+     atom  38 type  2   shift =     2.542253 Ry, =     34.58912 eV
+     atom  39 type  2   shift =     2.541144 Ry, =     34.57402 eV
+     atom  40 type  2   shift =     2.541478 Ry, =     34.57857 eV
+     atom  41 type  2   shift =     2.545481 Ry, =     34.63303 eV
+     atom  42 type  2   shift =     2.554709 Ry, =     34.75858 eV
+     atom  43 type  2   shift =     2.555531 Ry, =     34.76977 eV
+     atom  44 type  2   shift =     2.542176 Ry, =     34.58806 eV
+     atom  45 type  2   shift =     2.542374 Ry, =     34.59076 eV
+     atom  46 type  3   shift =    -0.154933 Ry, =     -2.10798 eV
+     atom  47 type  3   shift =    -0.153741 Ry, =     -2.09176 eV
+     atom  48 type  3   shift =    -0.153717 Ry, =     -2.09143 eV
+     atom  49 type  3   shift =    -0.154950 Ry, =     -2.10820 eV
+     atom  50 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  51 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  52 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  53 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  54 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  55 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  56 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  57 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  58 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  59 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  60 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  61 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  62 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  63 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  64 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  65 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  66 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  67 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  68 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  69 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  70 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  71 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  72 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  73 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  74 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  75 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  76 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  77 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  78 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  79 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     The LOCAL contribution to shift
+     atom   1 type  1   shift =     0.000000 Ry, =      0.00000 eV
+     atom   2 type  2   shift =   -31.963295 Ry, =   -434.88278 eV
+     atom   3 type  2   shift =   -31.966042 Ry, =   -434.92016 eV
+     atom   4 type  2   shift =   -38.277435 Ry, =   -520.79103 eV
+     atom   5 type  2   shift =   -38.279722 Ry, =   -520.82215 eV
+     atom   6 type  2   shift =   -37.213190 Ry, =   -506.31124 eV
+     atom   7 type  2   shift =   -22.962571 Ry, =   -312.42170 eV
+     atom   8 type  2   shift =   -21.620359 Ry, =   -294.15998 eV
+     atom   9 type  2   shift =   -27.768063 Ry, =   -377.80374 eV
+     atom  10 type  2   shift =   -23.640743 Ry, =   -321.64870 eV
+     atom  11 type  2   shift =   -32.561192 Ry, =   -443.01758 eV
+     atom  12 type  2   shift =   -28.785468 Ry, =   -391.64624 eV
+     atom  13 type  2   shift =   -37.207942 Ry, =   -506.23984 eV
+     atom  14 type  2   shift =   -22.961268 Ry, =   -312.40396 eV
+     atom  15 type  2   shift =   -21.613955 Ry, =   -294.07284 eV
+     atom  16 type  2   shift =   -27.773095 Ry, =   -377.87221 eV
+     atom  17 type  2   shift =   -23.622365 Ry, =   -321.39865 eV
+     atom  18 type  2   shift =   -32.554859 Ry, =   -442.93142 eV
+     atom  19 type  2   shift =   -28.757338 Ry, =   -391.26352 eV
+     atom  20 type  2   shift =   -38.729219 Ry, =   -526.93787 eV
+     atom  21 type  2   shift =   -38.712788 Ry, =   -526.71432 eV
+     atom  22 type  2   shift =   -32.869239 Ry, =   -447.20878 eV
+     atom  23 type  2   shift =   -32.856328 Ry, =   -447.03311 eV
+     atom  24 type  2   shift =   -32.869759 Ry, =   -447.21585 eV
+     atom  25 type  2   shift =   -32.856275 Ry, =   -447.03240 eV
+     atom  26 type  2   shift =   -38.726856 Ry, =   -526.90572 eV
+     atom  27 type  2   shift =   -38.713183 Ry, =   -526.71969 eV
+     atom  28 type  2   shift =   -37.207825 Ry, =   -506.23825 eV
+     atom  29 type  2   shift =   -28.777739 Ry, =   -391.54109 eV
+     atom  30 type  2   shift =   -32.554260 Ry, =   -442.92327 eV
+     atom  31 type  2   shift =   -23.635462 Ry, =   -321.57684 eV
+     atom  32 type  2   shift =   -27.765907 Ry, =   -377.77441 eV
+     atom  33 type  2   shift =   -21.617431 Ry, =   -294.12013 eV
+     atom  34 type  2   shift =   -22.960094 Ry, =   -312.38799 eV
+     atom  35 type  2   shift =   -37.215869 Ry, =   -506.34770 eV
+     atom  36 type  2   shift =   -28.744175 Ry, =   -391.08442 eV
+     atom  37 type  2   shift =   -32.563339 Ry, =   -443.04680 eV
+     atom  38 type  2   shift =   -23.614013 Ry, =   -321.28501 eV
+     atom  39 type  2   shift =   -27.794000 Ry, =   -378.15663 eV
+     atom  40 type  2   shift =   -21.617972 Ry, =   -294.12750 eV
+     atom  41 type  2   shift =   -22.973824 Ry, =   -312.57480 eV
+     atom  42 type  2   shift =   -38.278875 Ry, =   -520.81063 eV
+     atom  43 type  2   shift =   -38.288903 Ry, =   -520.94707 eV
+     atom  44 type  2   shift =   -31.969745 Ry, =   -434.97054 eV
+     atom  45 type  2   shift =   -31.975940 Ry, =   -435.05483 eV
+     atom  46 type  3   shift =   -42.295983 Ry, =   -575.46617 eV
+     atom  47 type  3   shift =   -42.119542 Ry, =   -573.06557 eV
+     atom  48 type  3   shift =   -42.107477 Ry, =   -572.90141 eV
+     atom  49 type  3   shift =   -42.298940 Ry, =   -575.50640 eV
+     atom  50 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  51 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  52 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  53 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  54 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  55 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  56 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  57 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  58 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  59 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  60 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  61 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  62 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  63 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  64 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  65 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  66 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  67 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  68 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  69 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  70 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  71 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  72 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  73 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  74 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  75 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  76 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  77 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  78 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  79 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     The IONIC contribution to shift
+     atom   1 type  1   shift =     0.000000 Ry, =      0.00000 eV
+     atom   2 type  2   shift =    24.139725 Ry, =    328.43770 eV
+     atom   3 type  2   shift =    24.142477 Ry, =    328.47513 eV
+     atom   4 type  2   shift =    30.523896 Ry, =    415.29876 eV
+     atom   5 type  2   shift =    30.525734 Ry, =    415.32377 eV
+     atom   6 type  2   shift =    29.410724 Ry, =    400.15329 eV
+     atom   7 type  2   shift =    15.127733 Ry, =    205.82330 eV
+     atom   8 type  2   shift =    13.789187 Ry, =    187.61144 eV
+     atom   9 type  2   shift =    19.934116 Ry, =    271.21747 eV
+     atom  10 type  2   shift =    15.811677 Ry, =    215.12883 eV
+     atom  11 type  2   shift =    24.765399 Ry, =    336.95042 eV
+     atom  12 type  2   shift =    20.949100 Ry, =    285.02702 eV
+     atom  13 type  2   shift =    29.405195 Ry, =    400.07806 eV
+     atom  14 type  2   shift =    15.126676 Ry, =    205.80892 eV
+     atom  15 type  2   shift =    13.782777 Ry, =    187.52423 eV
+     atom  16 type  2   shift =    19.939356 Ry, =    271.28876 eV
+     atom  17 type  2   shift =    15.793207 Ry, =    214.87753 eV
+     atom  18 type  2   shift =    24.758897 Ry, =    336.86196 eV
+     atom  19 type  2   shift =    20.920799 Ry, =    284.64197 eV
+     atom  20 type  2   shift =    30.947647 Ry, =    421.06418 eV
+     atom  21 type  2   shift =    30.931355 Ry, =    420.84253 eV
+     atom  22 type  2   shift =    24.990993 Ry, =    340.01979 eV
+     atom  23 type  2   shift =    24.977991 Ry, =    339.84288 eV
+     atom  24 type  2   shift =    24.991437 Ry, =    340.02583 eV
+     atom  25 type  2   shift =    24.977794 Ry, =    339.84020 eV
+     atom  26 type  2   shift =    30.945298 Ry, =    421.03223 eV
+     atom  27 type  2   shift =    30.931795 Ry, =    420.84851 eV
+     atom  28 type  2   shift =    29.405667 Ry, =    400.08448 eV
+     atom  29 type  2   shift =    20.941322 Ry, =    284.92119 eV
+     atom  30 type  2   shift =    24.758847 Ry, =    336.86128 eV
+     atom  31 type  2   shift =    15.806332 Ry, =    215.05611 eV
+     atom  32 type  2   shift =    19.932111 Ry, =    271.19019 eV
+     atom  33 type  2   shift =    13.786367 Ry, =    187.57308 eV
+     atom  34 type  2   shift =    15.125457 Ry, =    205.79232 eV
+     atom  35 type  2   shift =    29.412706 Ry, =    400.18025 eV
+     atom  36 type  2   shift =    20.907982 Ry, =    284.46758 eV
+     atom  37 type  2   shift =    24.767227 Ry, =    336.97529 eV
+     atom  38 type  2   shift =    15.785025 Ry, =    214.76621 eV
+     atom  39 type  2   shift =    19.960291 Ry, =    271.57359 eV
+     atom  40 type  2   shift =    13.786651 Ry, =    187.57694 eV
+     atom  41 type  2   shift =    15.139209 Ry, =    205.97943 eV
+     atom  42 type  2   shift =    30.525277 Ry, =    415.31756 eV
+     atom  43 type  2   shift =    30.534819 Ry, =    415.44738 eV
+     atom  44 type  2   shift =    24.146091 Ry, =    328.52431 eV
+     atom  45 type  2   shift =    24.152158 Ry, =    328.60685 eV
+     atom  46 type  3   shift =    32.942524 Ry, =    448.20587 eV
+     atom  47 type  3   shift =    32.692023 Ry, =    444.79763 eV
+     atom  48 type  3   shift =    32.680004 Ry, =    444.63410 eV
+     atom  49 type  3   shift =    32.945210 Ry, =    448.24242 eV
+     atom  50 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  51 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  52 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  53 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  54 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  55 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  56 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  57 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  58 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  59 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  60 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  61 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  62 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  63 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  64 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  65 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  66 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  67 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  68 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  69 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  70 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  71 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  72 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  73 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  74 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  75 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  76 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  77 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  78 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     atom  79 type  4   shift =     0.000000 Ry, =      0.00000 eV
+     The CC contribution to shift
+     atom   1 type  1   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   2 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   3 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   4 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   5 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   6 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   7 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   8 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   9 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  10 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  11 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  12 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  13 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  14 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  15 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  16 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  17 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  18 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  19 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  20 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  21 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  22 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  23 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  24 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  25 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  26 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  27 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  28 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  29 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  30 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  31 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  32 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  33 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  34 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  35 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  36 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  37 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  38 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  39 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  40 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  41 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  42 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  43 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  44 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  45 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  46 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  47 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  48 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  49 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  50 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  51 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  52 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  53 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  54 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  55 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  56 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  57 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  58 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  59 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  60 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  61 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  62 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  63 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  64 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  65 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  66 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  67 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  68 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  69 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  70 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  71 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  72 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  73 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  74 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  75 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  76 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  77 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  78 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  79 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     The Hubbard contribution to shift
+     atom   1 type  1   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   2 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   3 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   4 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   5 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   6 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   7 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   8 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom   9 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  10 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  11 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  12 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  13 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  14 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  15 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  16 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  17 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  18 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  19 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  20 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  21 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  22 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  23 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  24 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  25 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  26 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  27 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  28 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  29 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  30 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  31 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  32 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  33 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  34 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  35 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  36 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  37 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  38 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  39 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  40 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  41 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  42 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  43 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  44 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  45 type  2   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  46 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  47 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  48 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  49 type  3   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  50 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  51 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  52 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  53 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  54 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  55 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  56 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  57 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  58 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  59 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  60 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  61 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  62 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  63 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  64 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  65 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  66 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  67 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  68 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  69 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  70 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  71 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  72 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  73 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  74 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  75 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  76 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  77 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  78 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+     atom  79 type  4   shift =    -0.000000 Ry, =     -0.00000 eV
+
+     initstate    :     29.08s CPU     47.28s WALL
+
+
+   This run was terminated on:  21: 3: 5   1Aug2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

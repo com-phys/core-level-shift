@@ -63,6 +63,24 @@ ax.legend(title=f"Gaussian FWHM = {FWHM_EV:.2f} eV", frameon=False)
 ax.spines[["top", "right"]].set_visible(False)
 ax.tick_params(direction="out")
 
+# Labeled planar structure inset, cropped to exclude the external legend.
+structure = plt.imread(PROJECT / "figures" / "Planar_carbon_groups.png")
+h, w = structure.shape[:2]
+structure = structure[int(0.07 * h):int(0.98 * h), :int(0.64 * w)]
+mask = np.any(structure[..., :3] < 0.965, axis=2)
+if np.any(mask):
+    ys, xs = np.where(mask)
+    structure = structure[max(0, ys.min() - 20):min(structure.shape[0], ys.max() + 20),
+                          max(0, xs.min() - 20):min(structure.shape[1], xs.max() + 20)]
+inset = ax.inset_axes([0.035, 0.46, 0.255, 0.48], zorder=10)
+inset.imshow(structure)
+inset.set_xticks([])
+inset.set_yticks([])
+inset.set_facecolor((1, 1, 1, 0.94))
+for spine in inset.spines.values():
+    spine.set_color("#AAB2BD")
+    spine.set_linewidth(0.8)
+
 fig.savefig(PROJECT / "figures" / "planar_selected_C_envelopes.png", dpi=300, bbox_inches="tight")
 fig.savefig(PROJECT / "figures" / "planar_selected_C_envelopes.pdf", bbox_inches="tight")
 
