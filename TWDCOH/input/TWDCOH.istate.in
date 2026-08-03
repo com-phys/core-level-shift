@@ -1,0 +1,6 @@
+&INPUTPP
+  prefix          = 'twdcoh_cls'
+  outdir          = '/Users/behnamazizi/Downloads/core level shifts/TWDCOH/output/restart_data'
+  excite(2) = 6   ! all carbon atoms: C 1s
+  excite(3) = 7   ! all nitrogen atoms: N 1s
+/

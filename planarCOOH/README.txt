@@ -20,5 +20,4 @@ Primary report:
   report/Full_Planar_PLDC_All_Carbon_CLS_Report.pdf
 
 The active input uses the centralized pseudopotentials in ../pseudopotential.
-The complete QE restart directory is included. Its large wavefunction and
-charge-density files are stored with Git LFS.
+UPF entries inside the QE restart save directory are links to that central copy.

@@ -42,6 +42,27 @@ COLORS = {
 }
 
 
+def add_structure_inset(ax, image_path, bounds, crop_right=0.68):
+    """Add a labeled structure thumbnail cropped away from its large legend."""
+    image = plt.imread(image_path)
+    h, w = image.shape[:2]
+    crop = image[int(0.07 * h):int(0.98 * h), :int(crop_right * w)]
+    mask = np.any(crop[..., :3] < 0.965, axis=2)
+    if np.any(mask):
+        ys, xs = np.where(mask)
+        crop = crop[max(0, ys.min() - 20):min(crop.shape[0], ys.max() + 20),
+                    max(0, xs.min() - 20):min(crop.shape[1], xs.max() + 20)]
+    inset = ax.inset_axes(bounds, zorder=10)
+    inset.imshow(crop)
+    inset.set_xticks([])
+    inset.set_yticks([])
+    inset.set_facecolor((1, 1, 1, 0.94))
+    for spine in inset.spines.values():
+        spine.set_color('#AAB2BD')
+        spine.set_linewidth(0.8)
+    return inset
+
+
 def read_xyz(path):
     atoms = []
     for index, line in enumerate(path.read_text().splitlines()[2:], start=1):
@@ -167,6 +188,13 @@ for ax, (structure, rows) in zip(axes, [('Planar', planar), ('PLDC–COOH', pldc
     ax.set_ylabel('Normalized intensity')
     ax.spines[['top', 'right']].set_visible(False)
     ax.legend(frameon=False, ncol=5, fontsize=8, loc='upper right')
+    structure_path = (PLANAR / 'figures' / 'Planar_carbon_groups.png'
+                      if structure == 'Planar'
+                      else PLDC / 'figures' / 'PLDC_COOH_carbon_groups.png')
+    structure_bounds = ([0.015, 0.50, 0.205, 0.43] if structure == 'Planar'
+                        else [0.775, 0.055, 0.20, 0.38])
+    add_structure_inset(ax, structure_path, structure_bounds,
+                        crop_right=0.64 if structure == 'Planar' else 0.68)
 axes[-1].set_xlabel(r'C 1s initial-state shift relative to mean($C_b+C_w$) (eV)')
 fig.suptitle(f'Planar and PLDC–COOH C 1s core-level-shift envelopes (Gaussian FWHM = {fwhm:.2f} eV)', fontweight='bold')
 fig.savefig(FIGURES / 'planar_vs_PLDC_COOH_all_carbon_envelopes.png', dpi=300, bbox_inches='tight')
@@ -245,6 +273,13 @@ for ax, (structure, rows) in zip(axes, [('Planar', planar), ('PLDC–COOH', pldc
         inset.set_xlabel('Shift (eV)', fontsize=7)
         inset.tick_params(labelsize=7)
         inset.spines[['top', 'right']].set_visible(False)
+    structure_path = (PLANAR / 'figures' / 'Planar_carbon_groups.png'
+                      if structure == 'Planar'
+                      else PLDC / 'figures' / 'PLDC_COOH_carbon_groups.png')
+    structure_bounds = ([0.015, 0.50, 0.205, 0.43] if structure == 'Planar'
+                        else [0.775, 0.055, 0.20, 0.38])
+    add_structure_inset(ax, structure_path, structure_bounds,
+                        crop_right=0.64 if structure == 'Planar' else 0.68)
 axes[-1].set_xlabel(r'C 1s initial-state shift, QE convention: IS$_{ref}$ − IS$_{site}$ (eV)')
 fig.suptitle(f'Planar and PLDC–COOH C 1s envelopes (Gaussian FWHM = {fwhm:.2f} eV)', fontweight='bold')
 fig.savefig(FIGURES / 'planar_vs_PLDC_COOH_all_carbon_envelopes_zoomed.png', dpi=300, bbox_inches='tight')

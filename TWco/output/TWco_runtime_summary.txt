@@ -1,0 +1,8 @@
+Project: TWco
+SCF iterations: 39
+Final total energy (Ry): -955.66031874
+SCF runtime: PWSCF        :  55m44.07s CPU      1h27m WALL
+initial_state runtime: initstate    :     33.26s CPU     51.26s WALL
+C reference contribution (eV): -75.02798375
+N reference contribution (eV): -132.36117500
+Gaussian FWHM (eV): 0.35

@@ -1,0 +1,5 @@
+atom_index,element,group,is_contribution_eV,reference,reference_eV,cls_eV
+46,N,N_L,-134.54243,mean(all N),-134.4400675,0.10236249999999814
+47,N,N,-134.44681,mean(all N),-134.4400675,0.006742500000001428
+48,N,N,-134.40314,mean(all N),-134.4400675,-0.03692749999999023
+49,N,N_L,-134.36789,mean(all N),-134.4400675,-0.07217750000000933
